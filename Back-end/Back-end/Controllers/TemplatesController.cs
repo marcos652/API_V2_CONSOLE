@@ -5,14 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FabricaDeProjeto.Api.Controllers
 {
-    // Controller para atender o front-end (Templates.html, criar-template.html, etc.)
-    // Endpoints:
-    // GET    /api/templates                -> lista (suporta filtros cliente/plano/status)
-    // GET    /api/templates/{id}           -> obtém template por id
-    // GET    /api/templates/count?cliente= -> conta templates (opcional por cliente)
-    // GET    /api/templates/clients        -> lista nomes de clientes (para dropdowns)
-    // POST   /api/templates                -> cria novo template (limite 5 por cliente)
-    // DELETE /api/templates/{id}           -> remove template
+  
     [ApiController]
     [Route("api/[controller]")]
     public class TemplatesController : ControllerBase
